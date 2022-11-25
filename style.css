@@ -103,6 +103,10 @@ body{
     .image{
         width: 250px;
     }
+    .outerBox{
+        display: flex;
+        align-self: center;
+    }
 
 
 
