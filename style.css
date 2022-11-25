@@ -1,0 +1,109 @@
+body{
+    background-image: url('galaxy.gif');
+}
+.heading h1{
+    color: rgb(240,234,234);
+    text-align: center;
+    letter-spacing: 1px;
+}
+#input_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 25px;
+    margin-top: 100px;
+}
+#massInput{
+    width: 200px;
+    height: 25px;
+    opacity: 0.8;
+    font-size: 1.3rem;
+    border-radius: 5px;
+}
+#planetList{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+#clickButton{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+#planetContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+    display: none;
+}
+.image{
+    width: 400px;
+}
+#weight_details p{
+    color: white;
+    font-size: 1.4rem;
+}
+#weight{
+    text-align: center  ;
+    color: blue;
+}
+.outerBox{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.6;
+    line-height: 150px;
+    margin-left: 50px;
+}
+#errorMessage{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+.outerBody{
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    opacity: 0.5    ;
+    border-radius: 10px;
+}
+.outerBody h2{
+    color: green;
+    text-align: center;
+    line-height: 15px;
+}
+#planetName{
+    color: white;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+    .heading h1{
+        font-size: 18px;
+    }
+    #input_container{
+        max-width: 600px;
+        display: flex;
+        flex-wrap: wrap ;
+    }
+    #planetContainer{
+        max-width: 600px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .image{
+        width: 250px;
+    }
+
+
+
+  }

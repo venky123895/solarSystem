@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="heading">
+            <h1>Calculate a weight of an object on a planet</h1>
+        </div>
+        <div id="input_container">
+            <input id="massInput" type="number">
+            <select id="planetList">
+                <option value="">-- select planet --</option>
+                <option value="earth">Earth</option>
+                <option value="jupiter">Jupiter</option>
+                <option value="mars">Mars</option>
+                <option value="mercury">Mercury</option>
+                <option value="moon">Moon</option>
+                <option value="neptune">Neptune</option>
+                <option value="pluto">Pluto</option>
+                <option value="saturn">Saturn</option>
+                <option value="uranus">Uranus</option>
+                <option value="venus">Venus</option>
+            </select>
+            <button id="clickButton">Calculate weight</button>
+        </div>
+        <div id="planetContainer">
+            <img src="" class="image">
+            <div id="weight_details">
+                <p>weight of an object on<b id="planet"> Earth</b> </p>
+                <div class="outerBox">
+                    <h2 id="weight"></h2>
+                </div>
+            </div>
+        </div>
+        <div id="errorMessage">
+            <div class="outerBody">
+                <h2>Mass is required</h2>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
