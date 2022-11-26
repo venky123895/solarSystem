@@ -101,7 +101,7 @@ body{
         flex-wrap: wrap;
     }
     .image{
-        width: 250px;
+        width: 260px;
     }
     .outerBox{
         display: flex;
